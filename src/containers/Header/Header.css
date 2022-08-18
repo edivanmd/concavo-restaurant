@@ -1,10 +1,4 @@
 header {
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    height: 165px;
-    flex-wrap: wrap; */
-
     background: var(--color-black);
 }
 
@@ -21,15 +15,6 @@ header h1 {
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-}
-
-.header__concavo-innerDiv {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    width: 100%;
 }
 
 @media screen and (max-width: 1050px) {
@@ -52,8 +37,4 @@ header h1 {
 
 }
 
-@media screen and (min-width: 1500px) {
-    .header__concavo-innerDiv {
-        width: 1250px;
-    } 
-}
+

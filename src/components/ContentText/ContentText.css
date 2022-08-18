@@ -1,0 +1,67 @@
+.concavo__contentText {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+
+}
+
+.concavo__contentText img {
+    margin-top: 20px;
+}
+
+.concavo__contentText h3 {
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--color-white);
+}
+
+.concavo__contentText h4 {
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 117px;
+
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--color-golden);
+}
+
+.concavo__contentText p {
+    font-family: var(--font-txt);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: var(--color-gray);
+}
+
+.concavo__contentText a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+    margin: 1rem 0 2rem 0;
+    
+    background: var(--color-golden);
+
+    font-family: var(--font-txt);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+    letter-spacing: 0.04em;
+    color: var(--color-black);
+    transition: 0.52s ease;
+}
+
+.concavo__contentText a:hover {
+    background: var(--color-white);
+    transition: 0.52s ease;
+}

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
  import { RiMenu5Line } from 'react-icons/ri';
  import { IoRestaurantSharp } from 'react-icons/io5';
- import images from '../../constants/images';
 
 import './NavBar.css';
 
@@ -9,7 +8,7 @@ const Menu = () => (
   <>
     <ul>
       <li><a href="#aboutUs">About Us</a></li>
-      <li><a href="#headChef">Chef</a></li>
+      <li><a href="#headChef">The Chef</a></li>
       <li><a href="#awards">Awards</a></li>
       <li><a href="#photoGallery">Gallery</a></li>
       <li><a className='concavo__navbar-booking' href="https://google.com" target="_blank" rel="noreferrer">Booking</a></li>

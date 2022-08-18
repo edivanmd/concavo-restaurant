@@ -5,8 +5,8 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <header className='section__padding'>
-      <div className='header__concavo-innerDiv'>
+    <header className='section__padding gradient__bg'>
+      <div className='header__concavo-innerDiv concavo-innerDiv'>
         <h1><a href="#home">Côncavo</a></h1>
         <NavBar />
       </div>
