@@ -32,10 +32,6 @@ header h1 {
     width: 100%;
 }
 
-@media screen and (max-width: 2000px) {
-
-}
-
 @media screen and (max-width: 1050px) {
     .concavo__navbar-smallScreen {
         display: flex;
@@ -56,8 +52,8 @@ header h1 {
 
 }
 
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1500px) {
     .header__concavo-innerDiv {
-        width: 1200px;
+        width: 1250px;
     } 
 }
